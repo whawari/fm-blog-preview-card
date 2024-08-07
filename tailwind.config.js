@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         fig: ["Figtree", "sans-serif"],
       },
+      boxShadow: {
+        DEFAULT: "-1px -1px hsl(0, 0%, 7%), 8px 8px hsl(0, 0%, 7%)",
+      },
     },
     colors: {
       white: "hsl(0, 0%, 100%)",
