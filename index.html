@@ -14,33 +14,44 @@
 
     <!-- Tailwind CSS -->
     <link href="./src/output.css" rel="stylesheet" />
-
     <title>Frontend Mentor | Blog preview card</title>
   </head>
 
-  <body>
-    <main>
-      <div class="font-figtree font-semibold">
+  <body class="font-fig">
+    <main class="min-h-screen flex items-center justify-center bg-yellow p-6">
+      <div class="p-6 bg-white rounded-2xl max-w-sm">
         <img
           src="./assets/images/illustration-article.svg"
           alt="illustration-article"
+          class="rounded-xl block w-full h-48 object-cover"
         />
 
-        <span>Learning</span>
+        <span
+          class="bg-yellow inline-block mt-6 mb-4 py-2 px-4 rounded-md font-extrabold text-sm"
+          >Learning</span
+        >
 
-        <p>Published 21 Dec 2023</p>
+        <p class="text-gray-950 text-sm mb-6">Published 21 Dec 2023</p>
 
-        <h1>HTML & CSS foundations</h1>
+        <h1
+          class="text-xl inline-block font-extrabold leading-tight mb-4 cursor-pointer hover:text-yellow duration-300"
+        >
+          HTML & CSS foundations
+        </h1>
 
-        <p>
+        <p class="text-gray-500 text-sm mb-6 sm:text-base">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
 
-        <div>
-          <img src="./assets/images/image-avatar.webp" alt="avatar" />
+        <div class="flex items-center gap-3">
+          <img
+            src="./assets/images/image-avatar.webp"
+            alt="avatar"
+            class="w-8 h-8"
+          />
 
-          <h2>Greg Hooper</h2>
+          <h2 class="font-extrabold text-sm">Greg Hooper</h2>
         </div>
       </div>
     </main>

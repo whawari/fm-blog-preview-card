@@ -2,9 +2,10 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
-    fontFamily: {
-      figtree: ["Figtree", "sans-serif"],
+    extend: {
+      fontFamily: {
+        fig: ["Figtree", "sans-serif"],
+      },
     },
     colors: {
       white: "hsl(0, 0%, 100%)",
