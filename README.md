@@ -23,7 +23,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Blog preview card solution](https://github.com/whawari/fm-blog-preview-card)
-- Live Site URL: [https://whawari.github.io/fm-qrcode/](https://whawari.github.io/fm-blog-preview-card/)
+- Live Site URL: [https://whawari.github.io/fm-blog-preview-card/](https://whawari.github.io/fm-blog-preview-card/)
 
 ## My process
 
